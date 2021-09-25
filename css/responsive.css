@@ -1,0 +1,14 @@
+@media screen and (min-height: 700px)  {
+    header .container-header {
+        padding: 200px;
+    }
+
+    .logo-cartola{
+        height: 70%;
+        width: 80%;
+    }
+    
+    h1{
+        font-size: 100%;
+    }
+} 
