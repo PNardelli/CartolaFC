@@ -18,3 +18,8 @@ header .container-header{
 header h2{
     color: red;
 }
+
+.rodape{
+    margin-top: 20px;
+    font-size: 9px;
+}
