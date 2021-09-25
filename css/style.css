@@ -1,14 +1,17 @@
+
 * { /* Zerando todo arquivo de qualquer personalização */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
+
 header .container-header{
     padding: 60px;
     background-color:black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
