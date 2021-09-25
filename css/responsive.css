@@ -10,7 +10,8 @@
         margin-left: 0;
     }
     
-    .logo{
+    .logo-nome{
         font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
     }
 } 
