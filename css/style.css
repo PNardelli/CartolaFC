@@ -7,7 +7,7 @@
 
 header .container-header{
     padding: 60px;
-    background-color:rgb(63, 63, 63);
+    background-color:black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,4 +20,12 @@ header h2{
 .rodape{
     margin-top: 20px;
     font-size: 9px;
+}
+
+.container{
+    display: column;
+}
+.progress{
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
