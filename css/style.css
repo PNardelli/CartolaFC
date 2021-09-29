@@ -30,9 +30,14 @@ header h2{
     margin-bottom: 30px;
 }
 
+.text-start{
+    padding: 0;
+}
+
 .arrowUp{
     color: rgb(24, 190, 24);
     font-size: large;
+    margin-left: 0;
 }
 
 .arrowDown{
