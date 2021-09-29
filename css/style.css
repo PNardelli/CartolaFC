@@ -29,3 +29,12 @@ header h2{
     margin-top: 5px;
     margin-bottom: 30px;
 }
+
+.arrowUp{
+    color: rgb(24, 190, 24);
+    font-size: large;
+}
+
+.arrowDown{
+    color: red;
+}
