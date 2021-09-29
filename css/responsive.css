@@ -31,5 +31,20 @@
         align-items: center;
     }
 
+    .arrowUp{
+        color: rgb(24, 190, 24);
+        font-size: large;
+    }
+
+    .arrowDown{
+        color: red;
+    }
+
+    .margin-left{
+        padding: 0;
+    }
+
+    
+
 
 } 
