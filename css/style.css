@@ -43,3 +43,52 @@ header h2{
 .arrowDown{
     color: red;
 }
+
+.section-jogos{
+    margin-top: 70px;
+}
+
+.proximo-jogos{
+    margin-top: 30px;
+}
+
+.dia-do-jogo{
+    background-color:gainsboro;
+    height: 24px;
+    display: grid;
+    justify-content: center;
+}
+
+.dia-do-jogo-domingo{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    background-color:gainsboro;
+    height: 24px;
+    display: grid;
+    justify-content: center;
+}
+
+.jogos-validos{
+    background-color:greenyellow;
+    height: 24px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.jogos-nao-validos{
+    background-color:rgb(255, 71, 47);
+    height: 24px;
+    display: grid;
+    justify-content: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.logo-time{
+    height: 8%;
+}
+
+.d-xl-grid{
+text-align: center;
+}
