@@ -58,7 +58,7 @@
     }
     
     .dia-do-jogo{
-        background-color:rgba(207, 253, 1, 0.945);
+        background-color:gainsboro;
         height: 24px;
         display: grid;
         justify-content: center;
