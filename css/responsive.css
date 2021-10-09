@@ -91,12 +91,13 @@
     }
     
     .logo-time{
-        height: 15px;
+        height: 18px;
     }
     
     .d-xl-grid{
     text-align: center;
     justify-items: center;
+    width: 100px;
     }
     
     .col{
@@ -110,5 +111,9 @@
         height: 100%;
     }
 
+    .row-cols-lg-auto .name-times{
+        width: 330px;
+        flex-direction: row;
+    }
 
 } 
