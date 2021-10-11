@@ -1,6 +1,6 @@
 @media screen and (min-height: 700px)  {
     header .container-header {
-        padding: 100px;
+        padding: 50px;
         justify-content: space-between;
     }
 
@@ -74,11 +74,7 @@
     }
     
     .jogos-validos{
-        background-color:greenyellow;
-        height: 24px;
-        display: grid;
-        justify-content: center;
-        padding-bottom: 10px;
+        margin-top: 20px;
     }
     
     .jogos-nao-validos{
@@ -90,8 +86,8 @@
         color: white;
     }
     
-    .logo-time{
-        height: 18px;
+    .logo-times{
+        height: 35px;
     }
     
     .d-xl-grid{
@@ -111,9 +107,13 @@
         height: 100%;
     }
 
-    .row-cols-lg-auto .name-times{
-        width: 330px;
-        flex-direction: row;
+    .jogos{
+        align-items: center;
     }
+
+    .jogos-next{
+        margin-top: 50px;
+    }
+
 
 } 
