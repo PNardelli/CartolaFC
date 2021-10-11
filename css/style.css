@@ -85,14 +85,15 @@ header h2{
     color: white;
 }
 
-.logo-time{
-    height: 8%;
+.logo-times{
+    height: 35px;
+    align-items: center;
 }
 
 .d-xl-grid{
 text-align: center;
 }
 
-.chape{
-    font-size: 14.9px;
+.jogos td{
+    align-items: center;
 }
