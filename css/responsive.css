@@ -116,11 +116,16 @@
     }
 
     .gols{
-        font-size: 10px;
+        font-size: 9px;
         font-style: italic;
         display: flex;
         justify-content: flex-start;
         align-items: baseline;
+    }
+
+    .red-card{
+        width: 3px;
+        height: 5px;
     }
 
 } 
