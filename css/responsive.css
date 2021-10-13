@@ -118,5 +118,7 @@
     .gols{
         font-size: 8px;
         font-style: italic;
+        display: flex;
     }
+
 } 
