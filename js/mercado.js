@@ -1,6 +1,6 @@
 const mercado = document.querySelector("#open-close")
 
-var horaClose = '15:38'
+var horaClose = '15:45'
 var dataClose = '13/10/2021'
 var data = new Date()
 
