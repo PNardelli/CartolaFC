@@ -114,4 +114,9 @@
     .jogos-next{
         margin-top: 50px;
     }
+
+    .gols{
+        font-size: 8px;
+        font-style: italic;
+    }
 } 
