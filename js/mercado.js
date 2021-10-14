@@ -1,24 +1,25 @@
 const mercado = document.querySelector("#open-close")
+const icone = document.getElementsByClassName
 
 
-var horaClose = '18:00'
+var horaClose = 'Data:13' + ' Horas: ' + '18' + ':' + '00';
 var dataClose = '13/10/2021'
 var data = new Date()
 
 var dia = String(data.getDate()). padStart(2, '0');
 var mes = String(data. getMonth() + 1). padStart(2, '0');
 var ano = data. getFullYear();
-var hora = String(data.getHours())
+var hora = String(data.getHours()) .padStart(2, '0');
 var min = String(data.getMinutes()). padStart(2,'0');
-var horaAtual = hora + ':' + min;
+var horaAtual = 'Data:' + dia + ' Horas: ' + hora + ':' + min;
 
 dataAtual = dia + '/' + mes + '/' + ano;
 
-console.log(horaAtual);
-console.log(horaClose)
-console.log(dataAtual)
 
-if (horaClose <= horaAtual && dataClose == dataAtual) {
+console.log('Hora do Fechamento: ' + horaClose + '------> Hora Atual: ' + horaAtual)
+console.log('Data do Fechamento: ' + dataClose + '------> Data Atual: ' + dataAtual)
+
+if (horaClose <= horaAtual && dataClose <= dataAtual) {
     console.log('Teste OK! -> ' + dataClose + '-> ' + dataAtual)
 
 mercado.innerHTML = 'Mercado Fechado.'
