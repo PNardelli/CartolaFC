@@ -122,6 +122,14 @@
         justify-content: flex-start;
         align-items: baseline;
         margin-bottom: 0;
+        
+    }
+
+    .fa-futbol{
+        margin-left: 2px;
+    }
+    #calendario{
+        margin-left: 8px;
     }
 
 } 
