@@ -213,31 +213,95 @@
 
   <!--Rodada Anterior.-->
   <section>
+
+    <!--Teste Begin-->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel">Rodadas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Escolha a rodada!!
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target=".M26" data-bs-toggle="modal">Rodada 26</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 27</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 28</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 29</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 30</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 31</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 32</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 33</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 34</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 35</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 36</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 37</button>
+            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 38</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    </div>
+    <!--Teste End-->
+
+
+
+
+
+
+
     <div class="rodada-anterior">
       <!-- Button trigger modal -->
-      <button type="button" class="badge rounded-pill bg-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Jogos da rodada anterior
-      </button>
+      <p><a href="button type="button data-bs-toggle="modal" data-bs-target="#exampleModalToggle" class="modal-rodada-26">
+        
+      </button>Clique aqui</a> para verificar os jogos das rodadas anteriores</p>
 
-      <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      <!-- Modal Rodada 26 -->
+      <div class="M26 modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable">
           <div class="modal-content-edit">
             <div class="modal-header">
               <h5 class="modal-title" id="staticBackdropLabel">Jogos da Rodada 26</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              
             </div>
             <div class="modal-body text-center">
               <img src="img/rodadas/Rodada 26/jogos-rodada26.png" alt="">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Rodadas</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+      <!-- Modal Sem Rodada -->
+      <div class="M-Err modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content-edit">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Calma parça, rodada ainda não aconteceu.</h5>
+              
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/erro.png" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">Rodadas</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </section>
 
   <!-- Proximo Jogos Validos -->
@@ -246,47 +310,15 @@
     <div class="row">
 
       <div class="col-12 col-md-6">
-        <table class="table text-center">
-
-          <thead>
-            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: TERÇA 12/10 <i id="calendario"
-                class="fas fa-calendar-check-o"></i></th>
-          </thead>
-
-          <tbody>
-            <tr class="jogos">
-              <th scope="row">19h00</th>
-              <td><img class="logo-times" src="img/logos-times/logo-red-bull-bragantino-256.png" alt=""></td>
-              <td>Bragantino
-                <p class="gols">
-                  Jadsom <i class="fas fa-futbol"></i>
-                </p>
-              </td>
-              <td>1 X 0</td>
-              <td>Atlético-GO</td>
-              <td><img class="logo-times" src="img/logos-times/logo-atletico-goianiense-com-estrela-256.png" alt="">
-              </td>
-            </tr>
-
-            <tr class="jogos">
-              <th scope="row">21h30</th>
-              <td><img class="logo-times" src="img/logos-times/logo-bahia-256.png" alt=""></td>
-              <td>Bahia</td>
-              <td>0 X 0</td>
-              <td>Palmeiras</td>
-              <td><img class="logo-times" src="img/logos-times/logo-palmeiras-256.png" alt=""></td>
-            </tr>
-
-          </tbody>
-        </table>
-
 
         <table class="table text-center">
 
           <thead>
-            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: QUARTA 13/10 <i id="calendario"
+            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: AGUARDANDO! <i id="calendario"
                 class="fas fa-calendar-check-o"></i></th>
           </thead>
+
+          <!--
 
           <tbody>
             <tr class="jogos">
@@ -395,47 +427,7 @@
             </tr>
 
           </tbody>
-        </table>
-
-        <table class="table text-center">
-
-          <thead>
-            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: QUINTA 14/10 <i id="calendario"
-                class="fas fa-calendar-check-o"></i></th>
-          </thead>
-
-          <tbody>
-            <tr class="jogos">
-              <th scope="row">19h00</th>
-              <td><img class="logo-times" src="img/logos-times/logo-sao-paulo-256.png" alt=""></td>
-              <td>São Paulo
-                <p class="gols">
-                  Calleri <i class="fas fa-futbol"></i>
-                </p>
-              </td>
-              <td>1 X 1</td>
-              <td>Ceará
-                <p class="gols">
-                  Fabinho <i class="fas fa-futbol"></i>
-                </p>
-              </td>
-              <td><img class="logo-times" src="img/logos-times/logo-ceara-256.png" alt=""></td>
-            </tr>
-
-            <tr class="jogos">
-              <th scope="row">19h00</th>
-              <td><img class="logo-times" src="img/logos-times/logo-cuiaba-256.png" alt=""></td>
-              <td>Cuiabá
-                <p class="gols">
-                  Elton <i class="fas fa-futbol"></i>
-                </p>
-              </td>
-              <td>1 X 0</td>
-              <td>Sport</td>
-              <td><img class="logo-times" src="img/logos-times/logo-sport-recife-256.png" alt=""></td>
-            </tr>
-
-          </tbody>
+          -->
         </table>
 
       </div>
@@ -443,7 +435,7 @@
       <div class="col-12 col-md-6">
         <table class="table text-center">
           <thead>
-            <th colspan="6" class="bg-danger text-white">JOGO NÃO VALIDO PELO CARTOLA: NENHUM <i id="calendario"
+            <th colspan="6" class="bg-danger text-white">JOGO NÃO VALIDO PELO CARTOLA: AGUARDANDO! <i id="calendario"
                 class="fas fa-calendar-times"></i></th>
           </thead>
         </table>

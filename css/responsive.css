@@ -147,7 +147,12 @@
         pointer-events: all;
         background-clip: padding-box;
         outline: 0;
-        
+    }
+
+    .modal-footer{
+        align-content: center;
+        flex-direction: column;
+        background-color: whitesmoke;
     }
 
 } 
