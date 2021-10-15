@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="bootstrap-lib/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <title>Parcial 2 turno Cartola</title>
+  <title>Parcial 2 Turno Cartola</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     </div>
   </header>
 
-
+  <!--Rodadas NavBar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
@@ -42,7 +42,7 @@
               <li><a class="dropdown-item" href="Rodada23.html">Rodada 23</a></li>
               <li><a class="dropdown-item" href="Rodada24.html">Rodada 24</a></li>
               <li><a class="dropdown-item" href="Rodada25.html">Rodada 25</a></li>
-              <li><a class="dropdown-item" href="SemRodada.html">Rodada 26</a></li>
+              <li><a class="dropdown-item" href="Rodada26.html">Rodada 26</a></li>
               <li><a class="dropdown-item" href="SemRodada.html">Rodada 27</a></li>
               <li><a class="dropdown-item" href="SemRodada.html">Rodada 28</a></li>
               <li><a class="dropdown-item" href="SemRodada.html">Rodada 29</a></li>
@@ -62,6 +62,7 @@
     </div>
   </nav>
 
+  <!--Regras-->
   <div class="row">
     <div class="col-sm-6">
       <div class="card">
@@ -85,20 +86,18 @@
   </div>
 
 
-
-
   <div class="col-table">
-    <!--Primeira Coluna begin-->
 
-    <span id="open-close" class="badge rounded-pill bg-success text-center">Mercado Aberto até 18:30 da Terça para
-      rodada 26.</span>
+    <!--Situacao do Mercado e porcentagem do campeonato -->
+    <span id="open-close" class="badge rounded-pill bg-success text-center">Mercado Aberto.</span>
     <span>
       <div class="progress">
-        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 32%" aria-valuenow="25"
-          aria-valuemin="" aria-valuemax="100">2º Turno - 6/19</div>
+        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 37%" aria-valuenow="25"
+          aria-valuemin="" aria-valuemax="100">37% do 2º Turno - 7/19</div>
       </div>
     </span>
-    <!--Tabelas-->
+
+    <!--Tabela-->
     <table class="table text-center">
       <thead>
         <tr>
@@ -119,8 +118,8 @@
             <img src="img/CogumeloFC.svg" width="30px" alt="">
           </th>
           <td>Cogumeloo F.C</td>
-          <td>117.87 pts</td>
-          <td>372.76 pts</td>
+          <td>88.44 pts</td>
+          <td>453.20 pts</td>
         </tr>
         <tr>
           <th scope="row">2</th>
@@ -128,10 +127,10 @@
             <img src="img/PeDeGeloFC.svg" width="30px" alt="">
           </th>
           <td>PéDeGelo F.C</td>
-          <td>90.11 pts</td>
-          <td>341.51 pts</td>
+          <td>62.86 pts</td>
+          <td>404.40 pts</td>
           <td></td>
-          <td>+31.25</td>
+          <td>+48.83</td>
         </tr>
         <tr>
           <th scope="row">3</th>
@@ -139,54 +138,58 @@
             <img src="img/SportRecifl.svg" width="30px" alt="">
           </th>
           <td>SportRecifl</td>
-          <td>98.41 pts</td>
-          <td>294.22 pts</td>
+          <td>92.88 pts</td>
+          <td>387.10 pts</td>
           <td class="text-start">
             <i class="arrowUp fas fa-arrow-up"></i>
           </td>
-          <td>+47.29</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <th>
-            <img src="img/OsDelicadosFC.svg" width="30px" alt="">
-          </th>
-          <td>Os Delicados FC</td>
-          <td>95.72 pts</td>
-          <td>283.50 pts</td>
-          <td class="text-start">
-            <i class="arrowUp fas fa-arrow-up"></i>
-          </td>
-          <td>+10.72</td>
+          <td>+17.27</td>
         </tr>
 
         <tr>
-          <th scope="row" class="table-warning">5</th>
+          <th scope="row">4</th>
+
           <th>
             <img src="img/KairosMadri.svg" width="30px" alt="">
           </th>
           <td>Kairos Madri</td>
-          <td>67.71 pts</td>
-          <td>280.36 pts</td>
+          <td>96.53 pts</td>
+          <td>376.89 pts</td>
           <td class="text-start">
-            <i class="arrowDown fas fa-arrow-down"></i>
+            <i class="arrowUp fas fa-arrow-up"></i>
           </td>
-          <td>+3.14</td>
+          <td>+10.21</td>
+
+        </tr>
+
+        <tr>
+          <th scope="row" class="table-warning">5</th>
+
+          <th>
+            <img src="img/Sport_Recife_21.svg" width="30px" alt="">
+          </th>
+          <td>Sport_Recife_21</td>
+          <td>84.63 pts</td>
+          <td>359.83 pts</td>
+          <td class="text-start">
+            <i class="arrowUp fas fa-arrow-up"></i>
+          <td>+17.06</td>
+          </td>
         </tr>
 
 
         <tr>
           <th scope="row" class="table-danger">6</th>
           <th>
-            <img src="img/Sport_Recife_21.svg" width="30px" alt="">
+            <img src="img/OsDelicadosFC.svg" width="30px" alt="">
           </th>
-          <td>Sport_Recife_21</td>
-          <td>69.25 pts</td>
-          <td>275.20 pts</td>
+          <td>Os Delicados FC</td>
+          <td>47.26 pts</td>
+          <td>330.76 pts</td>
           <td class="text-start">
             <i class="arrowDown fas fa-arrow-down"></i>
-          <td>+5.16</td>
           </td>
+          <td>+29.07</td>
         </tr>
 
 
@@ -207,11 +210,37 @@
       </tbody>
     </table>
   </div>
-  <!--Primeira Coluna End-->
 
+  <!--Rodada Anterior.-->
+  <section>
+    <div class="rodada-anterior">
+      <!-- Button trigger modal -->
+      <button type="button" class="badge rounded-pill bg-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Jogos da rodada anterior
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content-edit">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Jogos da Rodada 26</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="img/rodadas/Rodada 26/jogos-rodada26.png" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Proximo Jogos Validos -->
-
   <section class="jogos-next">
 
     <div class="row">
@@ -220,7 +249,8 @@
         <table class="table text-center">
 
           <thead>
-            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: TERÇA 12/10 <i id="calendario" class="fas fa-calendar-check-o"></i></th>
+            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: TERÇA 12/10 <i id="calendario"
+                class="fas fa-calendar-check-o"></i></th>
           </thead>
 
           <tbody>
@@ -254,7 +284,8 @@
         <table class="table text-center">
 
           <thead>
-            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: QUARTA 13/10 <i id="calendario" class="fas fa-calendar-check-o"></i></th>
+            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: QUARTA 13/10 <i id="calendario"
+                class="fas fa-calendar-check-o"></i></th>
           </thead>
 
           <tbody>
@@ -263,19 +294,19 @@
               <td><img class="logo-times" src="img/logos-times/logo-flamengo-256.png" alt=""></td>
               <td>Flamengo
                 <p class="gols">
-                  Kenedy <i class="fas fa-futbol"></i> 
+                  Kenedy <i class="fas fa-futbol"></i>
                 </p>
                 <p class="gols">
-                  Pedro <i class="fas fa-futbol"></i> 
+                  Pedro <i class="fas fa-futbol"></i>
                 </p>
                 <p class="gols">
-                  A. Pereira <i class="fas fa-futbol"></i> 
+                  A. Pereira <i class="fas fa-futbol"></i>
                 </p>
               </td>
               <td>3 X 1</td>
               <td>Juventude
                 <p class="gols">
-                  Willian Matheus <i class="fas fa-futbol"></i> 
+                  Willian Matheus <i class="fas fa-futbol"></i>
                 </p>
               </td>
               <td><img class="logo-times" src="img/logos-times/logo-juventude-256.png" alt=""></td>
@@ -286,15 +317,15 @@
               <td><img class="logo-times" src="img/logos-times/logo-atletico-mineiro-256.png" alt=""></td>
               <td>Atlético-MG
                 <p class="gols">
-                  Nacho Fernandez <i class="fas fa-futbol"></i> <i class="fas fa-futbol"></i>  </p>
-                  <p class="gols">
-                    Nathan Silva <i class="fas fa-futbol"></i> 
-                  </p>
+                  Nacho Fernandez <i class="fas fa-futbol"></i> <i class="fas fa-futbol"></i> </p>
+                <p class="gols">
+                  Nathan Silva <i class="fas fa-futbol"></i>
+                </p>
               </td>
               <td>3 X 1</td>
               <td>Santos
                 <p class="gols">
-                  Raniel <i class="fas fa-futbol"></i> 
+                  Raniel <i class="fas fa-futbol"></i>
                 </p>
               </td>
               <td><img class="logo-times" src="img/logos-times/logo-santos-256.png" alt=""></td>
@@ -305,14 +336,14 @@
               <td><img class="logo-times" src="img/logos-times/logo-chapecoense-256.png" alt=""></td>
               <td>Chapecoense
                 <p class="gols">
-                  Matheus Ribeiro <i class="fas fa-futbol"></i> 
-                  </p>
+                  Matheus Ribeiro <i class="fas fa-futbol"></i>
+                </p>
               </td>
               <td>1 X 1</td>
               <td>Athletico-PR
                 <p class="gols">
-                  Christian <i class="fas fa-futbol"></i> 
-                  </p>
+                  Christian <i class="fas fa-futbol"></i>
+                </p>
               </td>
               <td><img class="logo-times" src="img/logos-times/logo-atletico-paranaense-256.png" alt=""></td>
             </tr>
@@ -322,8 +353,8 @@
               <td><img class="logo-times" src="img/logos-times/logo-fortaleza-256.png" alt=""></td>
               <td>Fortaleza
                 <p class="gols">
-                  Yago Pikachu <i class="fas fa-futbol"></i> 
-                  </p>
+                  Yago Pikachu <i class="fas fa-futbol"></i>
+                </p>
               </td>
               <td>1 X 0</td>
               <td>Grêmio</td>
@@ -335,8 +366,8 @@
               <td><img class="logo-times" src="img/logos-times/logo-do-corinthians-256.png" alt=""></td>
               <td>Corinthians
                 <p class="gols">
-                  Gabriel <i class="fas fa-futbol"></i> 
-                  </p>
+                  Gabriel <i class="fas fa-futbol"></i>
+                </p>
               </td>
               <td>1 X 0</td>
               <td>Fluiminese</td>
@@ -348,11 +379,11 @@
               <td><img class="logo-times" src="img/logos-times/logo-internacional-256.png" alt=""></td>
               <td>Internacional
                 <p class="gols">
-                  Patrick <i class="fas fa-futbol"></i> <i class="fas fa-futbol"></i> 
-                  </p>
-                  <p class="gols">
-                    Yuri Alberto <i class="fas fa-futbol"></i> 
-                    </p>
+                  Patrick <i class="fas fa-futbol"></i> <i class="fas fa-futbol"></i>
+                </p>
+                <p class="gols">
+                  Yuri Alberto <i class="fas fa-futbol"></i>
+                </p>
               </td>
               <td>3 X 1</td>
               <td>América-MG
@@ -369,24 +400,37 @@
         <table class="table text-center">
 
           <thead>
-            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: QUINTA 14/10 <i id="calendario" class="fas fa-calendar-check-o"></i></th>
+            <th colspan="6" class="bg-success text-white">JOGO VALIDO PELO CARTOLA: QUINTA 14/10 <i id="calendario"
+                class="fas fa-calendar-check-o"></i></th>
           </thead>
 
           <tbody>
             <tr class="jogos">
               <th scope="row">19h00</th>
               <td><img class="logo-times" src="img/logos-times/logo-sao-paulo-256.png" alt=""></td>
-              <td>São Paulo</td>
-              <td>X</td>
-              <td>Ceará</td>
+              <td>São Paulo
+                <p class="gols">
+                  Calleri <i class="fas fa-futbol"></i>
+                </p>
+              </td>
+              <td>1 X 1</td>
+              <td>Ceará
+                <p class="gols">
+                  Fabinho <i class="fas fa-futbol"></i>
+                </p>
+              </td>
               <td><img class="logo-times" src="img/logos-times/logo-ceara-256.png" alt=""></td>
             </tr>
 
             <tr class="jogos">
               <th scope="row">19h00</th>
               <td><img class="logo-times" src="img/logos-times/logo-cuiaba-256.png" alt=""></td>
-              <td>Cuiabá</td>
-              <td>X</td>
+              <td>Cuiabá
+                <p class="gols">
+                  Elton <i class="fas fa-futbol"></i>
+                </p>
+              </td>
+              <td>1 X 0</td>
               <td>Sport</td>
               <td><img class="logo-times" src="img/logos-times/logo-sport-recife-256.png" alt=""></td>
             </tr>
@@ -399,7 +443,8 @@
       <div class="col-12 col-md-6">
         <table class="table text-center">
           <thead>
-            <th colspan="6" class="bg-danger text-white">JOGO NÃO VALIDO PELO CARTOLA: NENHUM <i id="calendario" class="fas fa-calendar-times"></i></th>
+            <th colspan="6" class="bg-danger text-white">JOGO NÃO VALIDO PELO CARTOLA: NENHUM <i id="calendario"
+                class="fas fa-calendar-times"></i></th>
           </thead>
         </table>
       </div>
@@ -412,6 +457,8 @@
   <script src="https://kit.fontawesome.com/6776ae4faf.js" crossorigin="anonymous"></script>
   <script src="bootstrap-lib/js/bootstrap.min.js"></script>
   <script src="js/mercado.js"></script>
+
+
 
 </body>
 

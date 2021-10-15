@@ -132,4 +132,22 @@
         margin-left: 8px;
     }
 
+    .badge{
+        margin-bottom: 0;
+        font-size: medium;
+    }
+
+    .modal-content-edit{
+        position: relative;
+        display: inline-table;
+        flex-direction: column;
+        width: 100%;
+        color: black;
+        background-color: azure;
+        pointer-events: all;
+        background-clip: padding-box;
+        outline: 0;
+        
+    }
+
 } 

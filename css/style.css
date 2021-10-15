@@ -97,3 +97,69 @@ text-align: center;
 .jogos td{
     align-items: center;
 }
+
+.jogos-validos{
+    margin-top: 20px;
+}
+
+.jogos-nao-validos{
+    background-color:rgb(255, 71, 47);
+    height: 24px;
+    display: grid;
+    justify-content: center;
+    margin-top: 25px;
+    color: white;
+}
+
+.logo-times{
+    height: 35px;
+}
+
+.d-xl-grid{
+text-align: center;
+justify-items: center;
+width: 100px;
+}
+
+.col{
+    display: flex;
+    width: 50px;
+    height: 30px;
+}
+
+.row-cols-sm-5{
+    width: 100%;
+    height: 100%;
+}
+
+.jogos{
+    align-items: center;
+}
+
+.jogos-next{
+    margin-top: 50px;
+}
+
+.gols{
+    font-size: 8px;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 0;
+    
+}
+
+.fa-futbol{
+    margin-left: 2px;
+}
+#calendario{
+    margin-left: 8px;
+}
+
+.rodada-anterior{
+    margin-bottom: 0;
+}
+.modal-content{
+    pointer-events: none;
+}

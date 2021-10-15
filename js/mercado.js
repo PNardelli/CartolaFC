@@ -2,8 +2,8 @@ const mercado = document.querySelector("#open-close")
 const icone = document.getElementsByClassName
 
 
-var horaClose = 'Data:13' + ' Horas: ' + '18' + ':' + '00';
-var dataClose = '13/10/2021'
+var horaClose = 'Data:16' + ' Horas: ' + '18' + ':' + '30';
+var dataClose = '16/10/2021'
 var data = new Date()
 
 var dia = String(data.getDate()). padStart(2, '0');
