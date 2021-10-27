@@ -3,7 +3,7 @@ console.log(mercado)
 //const tabela = document.querySelector(".")
 //console.log(tabela)
 
-tabela.innerHTML = '<img class="img-serie-A" src="img/tabelaBrasileirao/TabelaBrasileirao28.png" alt="">'
+//tabela.innerHTML = '<img class="img-serie-A" src="img/tabelaBrasileirao/TabelaBrasileirao28.png" alt="">'
 
 
 var horaClose = 'Data:30' + ' Horas: ' + '18' + ':' + '30';
