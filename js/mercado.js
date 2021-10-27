@@ -1,7 +1,7 @@
 const mercado = document.querySelector("#open-close")
 console.log(mercado)
-const tabela = document.querySelector(".")
-console.log(tabela)
+//const tabela = document.querySelector(".")
+//console.log(tabela)
 
 tabela.innerHTML = '<img class="img-serie-A" src="img/tabelaBrasileirao/TabelaBrasileirao28.png" alt="">'
 
