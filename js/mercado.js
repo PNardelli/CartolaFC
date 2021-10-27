@@ -1,13 +1,13 @@
 const mercado = document.querySelector("#open-close")
 console.log(mercado)
-const tabela = document.querySelector(".tabela")
+const tabela = document.querySelector(".")
 console.log(tabela)
 
 tabela.innerHTML = '<img class="img-serie-A" src="img/tabelaBrasileirao/TabelaBrasileirao28.png" alt="">'
 
 
-var horaClose = 'Data:23' + ' Horas: ' + '18' + ':' + '30';
-var dataClose = '23/10/2021'
+var horaClose = 'Data:30' + ' Horas: ' + '18' + ':' + '30';
+var dataClose = '30/10/2021'
 var data = new Date()
 
 var dia = String(data.getDate()). padStart(2, '0');
@@ -35,11 +35,10 @@ mercadoCor.classList.remove("bg-success")
 mercadoCor.classList.add("bg-danger")
 
 } else {
-    mercado.innerHTML = 'Mercado Aberto Rodada ' + rodada 
-    console.log('Mercado Aberto Rodada ' + rodada + '!')   
+    mercado.innerHTML = 'Mercado Aberto Rodada ' 
+    console.log('Mercado Aberto Rodada ' + '!')   
 };
 }
-
 
 mercadoFechado()
 
