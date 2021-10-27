@@ -1,7 +1,9 @@
 const mercado = document.querySelector("#open-close")
 console.log(mercado)
+const tabela = document.querySelector(".tabela")
+console.log(tabela)
 
-var rodada = 27
+tabela.innerHTML = '<img class="img-serie-A" src="img/tabelaBrasileirao/TabelaBrasileirao28.png" alt="">'
 
 
 var horaClose = 'Data:23' + ' Horas: ' + '18' + ':' + '30';
@@ -17,16 +19,12 @@ var horaAtual = 'Data:' + dia + ' Horas: ' + hora + ':' + min;
 
 dataAtual = dia + '/' + mes + '/' + ano;
 
-if (dataClose > dataAtual) {
-    rodada = rodada + 1
-    console.log('resultado if: ' + rodada)
-}else{
-    console.log('resultado else: ')
-}
 
 console.log('Hora do Fechamento: ' + horaClose + '------> Hora Atual: ' + horaAtual)
 console.log('Data do Fechamento: ' + dataClose + '------> Data Atual: ' + dataAtual)
 
+
+function mercadoFechado(){
 
 if (horaClose <= horaAtual && dataClose <= dataAtual) {
     console.log('Teste OK! -> ' + dataClose + '-> ' + dataAtual)
@@ -37,6 +35,12 @@ mercadoCor.classList.remove("bg-success")
 mercadoCor.classList.add("bg-danger")
 
 } else {
-    mercado.innerHTML = 'Mercado Aberto Rodada ' + rodada
+    mercado.innerHTML = 'Mercado Aberto Rodada ' + rodada 
     console.log('Mercado Aberto Rodada ' + rodada + '!')   
 };
+}
+
+
+mercadoFechado()
+
+
