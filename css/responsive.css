@@ -184,4 +184,10 @@
         
     }
 
+    .btn-toolbar{
+        margin-top: 20px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
 } 

@@ -3798,7 +3798,7 @@ textarea.form-control-lg {
 
 .btn-toolbar {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
 }
 .btn-toolbar .input-group {
