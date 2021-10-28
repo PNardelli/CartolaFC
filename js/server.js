@@ -8,7 +8,7 @@ MongoClient.connect(uri, (err, client) => {
     if (err) return console.log('err runninigg')
     db = client.db('Cartola')
     app.listen(3000, () => {
-        console.log('Servidor aberto e rodando na porta 3000 -----')
+        console.log('<--- Servidor aberto e rodando na porta 3000 --->')
     })
 }
 )
@@ -22,7 +22,7 @@ app.use(bodyparser.urlencoded({ extended: true }))
 
 /*
 app.listen(3000)
-console.log('Servidor aberto e rodando na porta 3000 -----')
+console.log('<--- Servidor aberto e rodando na porta 3000 --->')
 */
 
 app.get('/', function (req, res) {
@@ -45,10 +45,10 @@ app.get('/', (req, res) => {
     var cursor = db.collection('times').find()
 })
  
-app.get('/show', (req, res) => {
+app.get('/', (req, res) => {
     db.collection('times').find().toArray((err, results) => {
         if (err) return console.log(err)
-        res.render('shows.ejs', { data: results })
+        res.render('index.html', { data: results })
  
     })
 })

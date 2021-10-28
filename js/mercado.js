@@ -11,6 +11,7 @@ var ano = data. getFullYear();
 var hora = String(data.getHours()) .padStart(2, '0');
 var min = String(data.getMinutes()). padStart(2,'0');
 var horaAtual = 'Data:' + dia + ' Horas: ' + hora + ':' + min;
+var horario = hora + ':' + min;
 
 dataAtual = dia + '/' + mes + '/' + ano;
 
@@ -30,7 +31,7 @@ mercadoCor.classList.remove("bg-success")
 mercadoCor.classList.add("bg-danger")
 
 } else {
-    mercado.innerHTML = 'Mercado Aberto Rodada ' 
+    mercado.innerHTML = 'Mercado Aberto para proxima rodada até: ' + dataClose
     console.log('Mercado Aberto Rodada ' + '!')   
 };
 }

@@ -87,9 +87,17 @@
 
 
   <div class="col-table">
-
     <!--Situacao do Mercado e porcentagem do campeonato -->
-    <span id="open-close" class="badge rounded-pill bg-success text-center">Mercado Aberto.</span>
+    <span id="open-close" class="badge rounded-pill bg-success text-center"></span>
+
+    <span class="badge rounded-pill bg-success text-center">Horario Atual: 
+      <script type="text/javascript">
+        var data = new Date();
+        document.write(data.getHours() + ':')
+        document.write(data.getMinutes())
+
+      </script>
+  </span>
     
     <span>
       <div class="progress">
@@ -364,14 +372,10 @@
           <tbody>
             <tr class="jogos">
               <th scope="row">17h00</th>
-              <div id="SAN">
                 <td><img class="logo-times" src="img/logos-times/logo-santos-256.png" alt=""></td>
-                <td>Santos
-              </td>
-            </div>
+                <td>Santos</td>
               <td>0 X 2</td>
-              <td>América-MG
-              </td>
+              <td>América-MG</td>
               <td><img class="logo-times" src="img/logos-times/logo-america-mineiro-256.png" alt=""></td>
             </tr>
 
@@ -563,10 +567,11 @@
 
 </span>
 
-  <script src="https://kit.fontawesome.com/6776ae4faf.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/6776ae4faf.js" crossorigin="anonymous"></script
   <script src="bootstrap-lib/js/bootstrap.min.js"></script>
   <script src="js/mercado.js"></script>
   <script src="js/rodada.js"></script>
+  <script src="js/server.js"></script>
 
 </body>
 
