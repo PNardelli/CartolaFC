@@ -4,7 +4,6 @@ console.log(mercado)
 console.log(aoVivo)
 
 
-
 var horaClose = 'Data:30' + ' Horas: ' + '16' + ':' + '30';
 var dataClose = '30/10/2021'
 var data = new Date()

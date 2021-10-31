@@ -193,7 +193,8 @@
     #ao-vivo{
         font-size: 6px;
         background-color: lightgreen;
-        border-radius: 60px;;
+        margin: 0;
+        border-radius: 30px;
 
     }
 
