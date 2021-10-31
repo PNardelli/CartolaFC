@@ -190,4 +190,11 @@
         flex-wrap: nowrap;
     }
 
+    #ao-vivo{
+        font-size: 6px;
+        background-color: lightgreen;
+        border-radius: 60px;;
+
+    }
+
 } 

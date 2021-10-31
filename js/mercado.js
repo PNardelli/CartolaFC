@@ -1,5 +1,9 @@
 const mercado = document.querySelector("#open-close")
+const aoVivo = document.getElementById("ao-vivo")
 console.log(mercado)
+console.log(aoVivo)
+
+
 
 var horaClose = 'Data:30' + ' Horas: ' + '16' + ':' + '30';
 var dataClose = '30/10/2021'
@@ -37,5 +41,3 @@ mercadoCor.classList.add("bg-danger")
 }
 
 mercadoFechado()
-
-

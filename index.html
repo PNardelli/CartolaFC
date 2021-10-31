@@ -90,11 +90,11 @@
     <!--Situacao do Mercado e porcentagem do campeonato -->
     <span id="open-close" class="badge rounded-pill bg-success text-center"></span>
 
-    <span class="badge rounded-pill bg-success text-center">Horario Atual: 
+    <span class="badge rounded-pill bg-dark text-info text-center">Horario Atual: 
       <script type="text/javascript">
         var data = new Date();
-        document.write(data.getHours() + ':')
-        document.write(data.getMinutes())
+        document.write(String(data.getHours()) .padStart(2, '0') + ':')
+        document.write(String(data.getMinutes()).padStart(2, '0'))
 
       </script>
   </span>
@@ -371,19 +371,29 @@
 
           <tbody>
             <tr class="jogos">
-              <th scope="row">17h00</th>
+              <th id="ao-vivo-horario" scope="row">17h00</th>
                 <td><img class="logo-times" src="img/logos-times/logo-atletico-paranaense-256.png" alt=""></td>
-                <td>Athletico-PR</td>
-              <td> X </td>
-              <td>Santos</td>
+              <td>Athletico-PR</td>
+              <td>0 X 1</td>
+              <td>Santos
+                <p class="gols">
+                  Madsom <i class="fas fa-futbol"></i>
+                </p>
+              </td>
               <td><img class="logo-times" src="img/logos-times/logo-santos-256.png" alt=""></td>
+              <td id="ao-vivo" type="button" style="visibility: hidden;">AO VIVO </td>
+              
             </tr>
 
             <tr class="jogos">
               <th scope="row">19h00</th>
               <td><img class="logo-times" src="img/logos-times/logo-flamengo-256.png" alt=""></td>
-              <td>Flamengo</td>
-              <td> X </td>
+              <td>Flamengo
+                <p class="gols">
+                  Michael <i class="fas fa-futbol"></i>
+                </p>
+              </td>
+              <td>1 X 0</td>
               <td>Atlético-MG</td>
               <td><img class="logo-times" src="img/logos-times/logo-atletico-mineiro-256.png" alt=""></td>
             </tr>
@@ -392,7 +402,7 @@
               <th scope="row">19h15</th>
               <td><img class="logo-times" src="img/logos-times/logo-juventude-256.png" alt=""></td>
               <td>Juventude</td>
-              <td> X </td>
+              <td>0 X 0</td>
               <td>Bahia</td>
               <td><img class="logo-times" src="img/logos-times/logo-bahia-256.png" alt=""></td>
             </tr>
@@ -400,10 +410,22 @@
             <tr class="jogos">
               <th scope="row">21h00</th>
               <td><img class="logo-times" src="img/logos-times/logo-fortaleza-256.png" alt=""></td>
-              <td>América-MG</td>
-              <td> X </td>
-              <td>Fortaleza</td>
+              <td>América-MG
+                <p class="gols">
+                  Ademir (P) <i class="fas fa-futbol"></i>
+                </p>
+                <p class="gols">
+                  F. Azevedo <i class="fas fa-futbol"></i>
+                </p>
+              </td>
+              <td>2 X 1</td>
+              <td>Fortaleza
+                <p class="gols">
+                  David <i class="fas fa-futbol"></i>
+                </p>
+              </td>
               <td><img class="logo-times" src="img/logos-times/logo-atletico-paranaense-256.png" alt=""></td>
+              <td id="ao-vivo" style="visibility: hidden;" type="button">AO VIVO </td>
             </tr>
 
           </tbody>
@@ -551,7 +573,6 @@
   <script src="bootstrap-lib/js/bootstrap.min.js"></script>
   <script src="js/mercado.js"></script>
   <script src="js/rodada.js"></script>
-  <script src="js/server.js"></script>
 
 </body>
 
