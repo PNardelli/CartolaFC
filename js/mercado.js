@@ -1,8 +1,5 @@
 const mercado = document.querySelector("#open-close")
-const aoVivo = document.getElementById("ao-vivo")
 console.log(mercado)
-console.log(aoVivo)
-
 
 var horaClose = 'Data:30' + ' Horas: ' + '16' + ':' + '30';
 var dataClose = '30/10/2021'
@@ -18,11 +15,6 @@ var horario = hora + ':' + min;
 
 dataAtual = dia + '/' + mes + '/' + ano;
 
-
-console.log('Hora do Fechamento: ' + horaClose + '------> Hora Atual: ' + horaAtual)
-console.log('Data do Fechamento: ' + dataClose + '------> Data Atual: ' + dataAtual)
-
-
 function mercadoFechado(){
 
 if (horaClose <= horaAtual && dataClose <= dataAtual) {
@@ -35,8 +27,8 @@ mercadoCor.classList.add("bg-danger")
 
 } else {
     mercado.innerHTML = 'Mercado Aberto para proxima rodada até: ' + dataClose
-    console.log('Mercado Aberto Rodada ' + '!')   
 };
 }
 
 mercadoFechado()
+  
