@@ -45,7 +45,7 @@ function trocarJogo1() {
 
 
 
-  if (horas == "10:05" && diaAtual == "01/11") {
+  if (horas == "10:10" && diaAtual == "01/11") {
     trocarJogo4();  
     trocarJogo10();
   }
