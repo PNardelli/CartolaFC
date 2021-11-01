@@ -21,7 +21,8 @@ function trocarJogo1() {
     const jogo3 = document.querySelector("#ao-vivo3").className = "ao-vivo"
   }
   function trocarJogo4() {
-    const jogo4 = document.querySelector("#ao-vivo4").className = "ao-vivo"
+    const jogo4 = document.querySelector("ao-vivo4").className = "ao-vivo"
+    console.log("Iniciado Jogo 4")
   }
   function trocarJogo5() {
     const jogo5 = document.querySelector("#ao-vivo5").className = "ao-vivo"
@@ -45,7 +46,7 @@ function trocarJogo1() {
 
 
 
-  if (horas == "10:50" && diaAtual == "01/11") {
+  if (horas == "10:55" && diaAtual == "01/11") {
     setInterval(trocarJogo4(), 7200000)  
     setInterval(trocarJogo5(), 7200000)
 
