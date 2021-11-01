@@ -46,6 +46,6 @@ function trocarJogo1() {
 
 
   if (horas == "10:46" && diaAtual == "01/11") {
-    setInterval(trocarJogo4(), 2000)  
-    setInterval(trocarJogo5(), 2000)
+    setInterval(trocarJogo4(), 7200000)  
+    setInterval(trocarJogo5(), 7200000)
   }
