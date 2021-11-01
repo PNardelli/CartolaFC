@@ -45,7 +45,9 @@ function trocarJogo1() {
 
 
 
-  if (horas == "10:46" && diaAtual == "01/11") {
+  if (horas == "10:50" && diaAtual == "01/11") {
     setInterval(trocarJogo4(), 7200000)  
     setInterval(trocarJogo5(), 7200000)
+
+    console.log('Iniciado o jogo ao vivo')
   }
