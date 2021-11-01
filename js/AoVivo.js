@@ -22,7 +22,7 @@ function trocarJogo1() {
   }
   function trocarJogo4() {
     const jogo4 = document.querySelector("ao-vivo4").className = "ao-vivo"
-    console.log("Iniciado Jogo 4")
+    console.log("Iniciado Jogo 4: =>" + jogo4)
   }
   function trocarJogo5() {
     const jogo5 = document.querySelector("#ao-vivo5").className = "ao-vivo"
