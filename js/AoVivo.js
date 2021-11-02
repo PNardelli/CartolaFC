@@ -1,3 +1,6 @@
+var myVar
+var numeroBase = 0;
+
 function trocarJogo1() {
     const jogo1 = document.getElementById("ao-vivo1").className = "ao-vivo"
   }
@@ -32,23 +35,6 @@ function trocarJogo1() {
  
   console.log(horario)
   console.log(dataAtual)
+  console.log(hora)
+  console.log(min)
 
-  
-  var myVar
-  var numeroBase = 0;
-
-if (numeroBase = 0) {
-  myFuction()
-}
-
-  while (10 < numeroBase) {
-    
-    function myFuction(){
-      myVar = setInterval(Alerta, 5000)
-      console.log(numeroBase)
-    }  
-  }
-
-  function Alerta() {
-      numeroBase + 1
-  }
