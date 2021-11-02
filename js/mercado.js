@@ -1,5 +1,4 @@
 const mercado = document.querySelector("#open-close")
-console.log(mercado)
 
 var horaClose = 'Data:30' + ' Horas: ' + '16' + ':' + '30';
 var dataClose = '30/10/2021'
