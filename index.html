@@ -91,7 +91,7 @@
     <!--Situacao do Mercado e porcentagem do campeonato -->
     <span id="open-close" class="badge rounded-pill bg-success text-center"></span>
 
-    <span class="badge rounded-pill bg-dark text-info text-center">Horario Atual: 
+    <span class="badge rounded-pill text-info text-center">Horario Atual: 
       <script type="text/javascript">
         var data = new Date();
         document.write(String(data.getHours()) .padStart(2, '0') + ':')
@@ -241,7 +241,7 @@
             <button class="btn btn-primary" data-bs-target=".M26" data-bs-toggle="modal">Rodada 26</button>
             <button class="btn btn-primary" data-bs-target=".M27" data-bs-toggle="modal">Rodada 27</button>
             <button class="btn btn-primary" data-bs-target=".M28" data-bs-toggle="modal">Rodada 28</button>
-            <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 29</button>
+            <button class="btn btn-primary" data-bs-target=".M29" data-bs-toggle="modal">Rodada 29</button>
             <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 30</button>
             <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 31</button>
             <button class="btn btn-primary" data-bs-target=".M-Err" data-bs-toggle="modal">Rodada 32</button>
@@ -258,11 +258,13 @@
     <!--Teste End-->
 
     <div class="rodada-anterior">
-      <!-- Button trigger modal -->
-      <p> <a href= button type=button data-bs-toggle="modal" data-bs-target="#exampleModalToggle"
-          class="modal-rodada-26">
-          Clique aqui</a> para verificar os jogos das rodadas anteriores</p>
-        </button>
+      <!-- Button trigger modal 
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+        Rodadas Anteriores
+      </button>
+
+      -->
+
 
       <!-- Modal Rodada 26 -->
       <div class="M26 modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
