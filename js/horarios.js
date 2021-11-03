@@ -17,7 +17,7 @@ var horarioAs16 = 16
     min
 
     if (02 == hora || hora == 03) {
-         if(min >= 16) {
+         if(min >= 15) {
             resultHora = true
             resultMin = true;  
         }
