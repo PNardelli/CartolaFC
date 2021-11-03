@@ -12,28 +12,7 @@ var horarioAs16 = 16
 
 
   var resultHora = false
-  var resultMin = false 
-    hora = 17
-    min = 46
-
-    if (horarioAs16 == hora || horarioAs16+1 == hora) {
-         if(min >= 00) {
-            resultHora = true
-            resultMin = true 
-            console.log("Ptimeiro IF")
-        }
-        if(hora == 17 && min <= 45){
-            resultHora = true
-            resultMin = true
-            console.log("Segundo IF " + horarioAs16)
-        }
-
-    if (dataAtual == dataDosJogos && resultHora == true && resultMin == true) {
-        console.log("Trocar Jogo 3")
-        trocarJogo3()
-        trocarJogo5()
-    }    
-}
+  var resultMin = false
  
 
 
