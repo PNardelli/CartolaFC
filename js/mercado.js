@@ -1,7 +1,7 @@
 const mercado = document.querySelector("#open-close")
 
-var horaClose = 'Data:30' + ' Horas: ' + '16' + ':' + '30';
-var dataClose = '30/10/2021'
+var horaClose = 'Data:06' + ' Horas: ' + '16' + ':' + '30';
+var dataClose = '06/11/2021'
 var data = new Date()
 
 var dia = String(data.getDate()). padStart(2, '0');
