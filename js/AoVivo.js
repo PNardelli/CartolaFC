@@ -1,10 +1,6 @@
-var myVar
-var numeroBase = 0;
-
-function trocarJogo1() {
+  function trocarJogo1() {
     const jogo1 = document.getElementById("ao-vivo1").className = "ao-vivo"
   }
-
   function trocarJogo2() {
     const jogo2 = document.getElementById("ao-vivo2").className = "ao-vivo"
   }
@@ -33,8 +29,8 @@ function trocarJogo1() {
     const jogo10 = document.getElementById("ao-vivo10").className = "ao-vivo"
   }
  
-  console.log(horario)
-  console.log(dataAtual)
-  console.log(hora)
-  console.log(min)
+  /**Condicionais para jogos ao vivo */
+  
+
+//trocarJogoAs17()
 
