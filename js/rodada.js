@@ -10,3 +10,7 @@ function alterarRodada28() {
 function alterarRodada29() {
     document.getElementById("tabela-serie-A").src="img/tabelaBrasileirao/TabelaBrasileirao29.png"
 }
+
+function alterarRodada30() {
+    document.getElementById("tabela-serie-A").src="img/tabelaBrasileirao/TabelaBrasileirao30.png"
+}
