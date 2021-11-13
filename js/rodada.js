@@ -14,3 +14,7 @@ function alterarRodada29() {
 function alterarRodada30() {
     document.getElementById("tabela-serie-A").src="img/tabelaBrasileirao/TabelaBrasileirao30.png"
 }
+
+function alterarRodada31() {
+    document.getElementById("tabela-serie-A").src="img/tabelaBrasileirao/TabelaBrasileirao31.png"
+}
